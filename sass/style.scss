@@ -1,3 +1,19 @@
+$fonts-main: 'Montserrat', sans-serif;
+
+/* COLORS */
+$color-background: #f5f6f7;
+$color-main: #b88b58;
+$color-light-gray: #aeaeae; 
+$color-gray: #7e7e7e; 
+$color-dark-gray: #373737; 
+$color-twitter: #66CCFF;
+$color-facebook: #3366FF;
+$color-google: #FF3333;
+$color-linkedin: #127cb4;
+$color-pinterest: #b71c29;
+$color-flickr: #3b5998;
+$color-dribbble: #cb2028;
+
 /* IMAGES */
 
 .photo-1 {
@@ -34,4 +50,102 @@
 
 .face-3 {
 	background-image: url("../images/img-team-3.png");
+}
+
+/* GLOBAL STYLES */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: $fonts-main;
+	box-sizing: border-box;
+	color: $color-dark-gray;
+	outline: none;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 30px;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h5 {
+	font-size: 14px;
+	line-height: 30px;
+	color: $color-light-gray;
+	text-transform: uppercase;
+}
+
+.btn {
+	width: 180px;
+	height: 45px;
+	background: $color-main;
+	border-style: none;
+	border-radius: 25px;
+	&:hover {
+		background: -webkit-linear-gradient(left,#fff, $color-main);
+		* {
+		font-size: 18px;
+		transition: 0.3s;
+		}
+	}
+	&:active {
+		background: #000;
+	}	
+	a {
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: 700;
+		line-height: 35px;
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+/* MENU */
+.menu {
+	background-color: #000;
+	color: #fff;
+	.nav {
+		width: 960px;
+		margin: 0 auto;
+		height: 100px;
+		.logo {
+			float: left;
+			margin: 25px 150px 25px 0;
+			height: 50px;
+			width: 50px;
+			display: inline-block;
+			line-height: 100px;
+			background-image: url('../images/logo.PNG');
+			background-size: cover;
+		}
+		ul {
+			margin: 0;
+			padding: 0;
+			height: 100px;
+			display: inline-block;
+			li {
+				display: inline-block;
+				float: left;
+				padding: 5px 10px;
+				height: 100px;
+				a {			
+					text-decoration: none;
+					font-family: "Gotham Rounded";
+					text-align: center;
+					text-transform: uppercase;
+					font-weight: 700;
+					color: #fff;
+					height: 100px;
+					line-height: 100px;
+					&:hover {
+						cursor: pointer;
+						border-bottom: 5px solid $color-main;
+					}
+				}	
+			}
+		}
+	}
 }
