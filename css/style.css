@@ -83,4 +83,85 @@ h5 { font-size: 14px; line-height: 30px; color: #aeaeae; text-transform: upperca
 .about .row .col p { line-height: 25px; }
 
 .about .row .btn { width: 192px; margin: 30px 0; border-radius: 5px; }
+
+/* SERVICES */
+.services { min-height: 400px; background: #000; padding: 40px 0; }
+
+.services h1 { color: #fff; }
+
+.services h5 { color: #aeaeae; }
+
+.services h3 { color: #fff; text-transform: uppercase; font-size: 18px; }
+
+.services p { font-size: 12px; }
+
+.services .ico { width: 60px; height: 60px; margin: 0 auto; background-size: cover; }
+
+.services .ico:hover { animation: rubberBand 1s; cursor: pointer; }
+
+.services .star { background-image: url("../images/star.png"); }
+
+.services .support { background-image: url("../images/support.png"); }
+
+.services .clock { background-image: url("../images/clock.png"); }
+
+.services .quality { background-image: url("../images/quality.png"); }
+
+.services .row { margin: 40px 0; border-left: 2px solid #bebebe; }
+
+.services .row .col { border-right: 2px solid #bebebe; padding: 20px; height: 180px; }
+
+/* PROJECTS */
+.projects { padding: 60px 0; }
+
+.projects .nav-tabs { margin: 50px auto 35px; width: 570px; border: 2px solid #999; border-radius: 20px; overflow: hidden; background-color: #ccc; text-transform: uppercase; padding: 0; }
+
+.projects .nav-tabs * { color: #000; font-size: 14px; font-family: "Gotham Rounded"; }
+
+.projects .nav-tabs li a { border-left: 2px solid #999; }
+
+.projects .nav-tabs li a:hover { border-bottom: 5px solid #888; box-sizing: border-box; }
+
+.projects .nav-tabs .active a { background: #ccc; border: none; border-bottom: 5px solid #b88b58; }
+
+.projects .btn { margin-top: 20px; }
+
+.projects .col { padding: 12px; position: relative; overflow: hidden; height: 165px; margin-bottom: 15px; }
+
+.projects .col .photo { height: 165px; z-index: 3; background-size: cover; background-position: center; width: 100%; }
+
+.projects .col .layer { height: 165px; z-index: 2; width: calc(100% - 25px); position: absolute; top: 165px; }
+
+.projects .col .layer .photo-ico { cursor: pointer; width: 70%; font-size: 12px; margin: 35px auto; text-align: center; visibility: hidden; }
+
+.projects .col .layer .photo-ico h5 { font-size: 18px; padding: 0 0 0 5px; color: #fff; }
+
+.projects .col .layer .photo-ico p { color: #fff; }
+
+.projects .col:hover .layer { top: 12px; background: rgba(0, 0, 0, 0.8); transition: top 0.5s ease-in; }
+
+.projects .col:hover .photo-ico { visibility: visible; color: #b88b58; transition: 0.4s ease-in 0.5s; }
+
+/* TEAM */
+.team .carousel img { height: 700px; }
+
+.team .carousel-inner .carousel-caption { left: 0; width: 100%; }
+
+.team h1, .team h5 { color: #fff; }
+
+.team .row { margin: 25px 0; }
+
+.team .row .col { background-color: #fff; margin: 1%; width: 31%; padding: 0 60px; }
+
+.team .row .col h3 { font-size: 21px; }
+
+.team .row .col p { font-size: 14px; }
+
+.team .row .col-fa { width: 33px; margin: 20px 2px; padding: 0; display: block; float: left; }
+
+.team .row .fa { background-color: #ccc; border-radius: 50%; width: 33px; height: 33px; font-size: 16px; line-height: 30px; cursor: pointer; color: #fff; }
+
+.team .row .fa:hover { color: #fff; transform: scale(1.2); transition: transform 0.5s 0s; background: #b88b58; }
+
+.team .face { width: 13vw; max-width: 175px; height: 13vw; max-height: 175px; margin: 40px auto; background-size: cover; }
 /*# sourceMappingURL=style.css.map */

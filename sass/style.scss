@@ -425,3 +425,89 @@ h5 {
 		background-size: cover;
 	}
 }
+
+.clients {
+	background: $color-background;
+	height: 700px;
+	.carousel-caption {
+		padding: 0 110px;
+	}
+	.face {
+		width: 10vw;
+		max-width: 135px;
+		height: 10vw;
+		max-height: 135px;
+		margin: 90px auto 20px;
+		background-size: cover;
+	}
+	.carousel img { 
+		height: 700px;
+	}
+	h3 {
+		font-size: 24px;
+		color: #000;
+		font-weight: 700;
+	}
+	h6 {
+		color: #000;
+		margin-bottom: 50px;
+		font-size: 18px;
+	}
+	p {
+		margin-bottom: 110px;
+		color: $color-gray;
+		font-size: 14px;
+		font-weight: 300;
+	}
+}
+.logo {
+	.col {
+		height: 150px;
+		padding: 50px 0 50px 40px;
+	}
+}
+
+.prices {
+	padding: 40px 0;
+	background: url('../images/bg.png');
+	background-size: cover;
+	.col {
+		background: #fff;
+		margin: 20px 1%;
+		padding-top: 20px;
+		width: 23%;
+		cursor: help;
+		h1 {
+			line-height: 10px;
+		}
+	}
+	p {
+		line-height: 10px;
+		margin: 5px;
+		font-family: "Gotham Rounded";
+	}
+	h2 {
+		font-size: 14px;
+		text-transform: uppercase;
+		color: #000;	
+	}
+	h6 {
+		font-size: 10px;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+	.btn {
+		margin: 20px 0 40px;
+		width: 15vw;
+		max-width: 180px;
+		color: #fff;
+		font-size: 16px;
+		font-weight: 600;
+		text-transform: uppercase;
+		line-height: 33px;
+		&:hover {
+			font-size: 18px;
+			transition: 0.3s;
+		}
+	}
+}
